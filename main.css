@@ -1,0 +1,36 @@
+body{background:#091d3d}
+.box{
+    width:12%;
+    height:12%;
+    display: inline-block;
+    border: solid 4px #6a98e2;
+    border-radius: 5px;
+    /*padding:10px;*/
+}
+#gameContainer{
+   text-align: center;
+}
+
+#endGame{
+    display: none;
+    position: fixed;
+    left:0;bottom: 0;right: 0;top:0;
+    background-color:rgba(0, 0, 0, 0.5);
+    z-index: 6;
+}
+#gameOver{
+    margin-left:25%;
+    margin-top: 40vh;
+    background:#15c28e ;
+    font-size: 2em;
+    font-family: 'Acme', sans-serif;
+}
+#score{
+    margin-top:15px;
+    font-size: 2em;
+    font-family: 'Acme', sans-serif;
+    background: #15c28e ;
+} 
+h1{
+    font-family: 'Acme', sans-serif;color:#fff;
+}
